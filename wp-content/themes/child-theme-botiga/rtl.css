@@ -1,0 +1,9 @@
+/*
+Theme Name:     Child theme Botiga
+Template:       botiga
+
+This is the child theme for Botiga theme, generated with Generate Child Theme plugin by catchthemes.
+
+Right to Left text support.
+*/
+@import url("../botiga/rtl.css");
