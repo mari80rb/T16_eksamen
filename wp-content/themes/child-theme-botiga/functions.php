@@ -21,6 +21,8 @@ function child_theme_botiga_enqueue_styles() {
 
 <div id="arrow"></div>
 
+
+
 <style>
 #arrow {
   display: none;
