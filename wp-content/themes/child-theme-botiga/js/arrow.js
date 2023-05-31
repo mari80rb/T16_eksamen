@@ -1,7 +1,11 @@
-// Vent, indtil DOM'en er indlæst
-document.addEventListener("DOMContentLoaded", function() {
+    // Vent, indtil DOM'en er indlæst
+  
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("hej")
+    
     // Hent referencen til pilens HTML-element
     let arrow = document.getElementById("arrow");
+    console.log(arrow)
     arrow.style.display = "block"; // Vis pilen ved siden af hero-billedet
     
     let prevScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
