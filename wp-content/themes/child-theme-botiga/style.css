@@ -9,3 +9,23 @@ This is the child theme for Botiga theme, generated with Generate Child Theme pl
 
 (optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
 */
+
+#arrow {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-image: url('wp-content/themes/child-theme-botiga/images/arrow.png');
+    background-size: cover;
+    z-index: 999;
+}
+  
+.arrow-up {
+    transform: rotate(0deg);
+}
+  
+.arrow-down {
+    transform: rotate(180deg);
+}
