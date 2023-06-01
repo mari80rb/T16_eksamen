@@ -32,4 +32,5 @@
     prevScrollPosition = currentScrollPosition;
     // Opdater den tidligere scrollposition til den aktuelle værdi for næste sammenligning
     });
-    });
+
+});
